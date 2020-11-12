@@ -45,7 +45,7 @@ class sec::config (
         incl    => '/etc/sysconfig/sec',
         lens    => 'Sysconfig.lns',
         context => '/files/etc/sysconfig/sec',
-        changes => "set SEC_ARGS \"${daemon_args}\"",
+        changes => "set OPTIONS \"${daemon_args}\"",
       }
     }
 
